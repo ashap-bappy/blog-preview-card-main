@@ -1,0 +1,65 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 20rem;
+  padding: 24px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 19px;
+  box-shadow: 9px 9px;
+}
+
+.article-img {
+  width: 100%;
+  border-radius: 19px;
+}
+
+.card-content,
+.card-author {
+  margin-top: 24px;
+}
+
+.category {
+  font-weight: 800;
+  padding: 4px 12px;
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+}
+
+.publish-date,
+.title,
+.description {
+  margin-top: 12px;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-name {
+  font-weight: 800;
+}
