@@ -67,6 +67,7 @@ body {
 
 .card-content .description {
   color: hsl(0, 0%, 50%);
+  line-height: 1.5;
 }
 
 .card-author {
